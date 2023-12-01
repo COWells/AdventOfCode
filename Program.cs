@@ -10,7 +10,8 @@ namespace AdventOfCode2023
     {
         static void Main(string[] args)
         {
-
+            BaseAdventDay currentDay = new Day1();
+            currentDay.SolveDay();
         }
     }
 }
