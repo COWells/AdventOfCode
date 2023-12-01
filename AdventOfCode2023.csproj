@@ -46,11 +46,21 @@
     <Compile Include="CommonUtils\StringFormatter.cs" />
     <Compile Include="CommonUtils\Logger.cs" />
     <Compile Include="CommonUtils\FileReader.cs" />
+    <Compile Include="Days\Day1\Day1.cs" />
+    <Compile Include="Days\Day2\Day2.cs" />
+    <Compile Include="Days\BaseAdventDay.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Days\Day1\Output.txt" />
+    <Content Include="Days\Day1\Input.txt" />
+    <Content Include="Days\Day2\Input.txt" />
+    <Content Include="Days\Day2\Output.txt" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
