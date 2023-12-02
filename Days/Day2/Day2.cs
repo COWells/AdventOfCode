@@ -4,16 +4,16 @@ using System.Linq;
 
 namespace AdventOfCode2023
 {
-    public class Day2 : BaseAdventDay
+    public class Day2 : AdventDay
     {
-        protected override string CurrentDay => "Day2";
+        public override string CurrentDay => "Day2";
 
-        protected override string SolveTask1(List<string> input)
+        public override void SolveTask1(List<string> input)
         {
             throw new System.NotImplementedException();
         }
 
-        protected override string SolveTask2(List<string> input)
+        public override void SolveTask2(List<string> input)
         {
             throw new System.NotImplementedException();
         }
