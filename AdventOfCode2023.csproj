@@ -48,8 +48,10 @@
     <Compile Include="CommonUtils\FileReader.cs" />
     <Compile Include="Days\AdventDayFactory.cs" />
     <Compile Include="Days\Day1\Day1.cs" />
+    <Compile Include="Days\Day2\CubeColoursEnum.cs" />
     <Compile Include="Days\Day2\Day2.cs" />
     <Compile Include="Days\AdventDay.cs" />
+    <Compile Include="Days\Day2\Day2ExtensionMethods.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
