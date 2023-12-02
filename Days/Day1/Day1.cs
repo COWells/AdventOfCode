@@ -4,11 +4,11 @@ using System.Linq;
 
 namespace AdventOfCode2023
 {
-    public class Day1 : BaseAdventDay
+    public class Day1 : AdventDay
     {
-        protected override string CurrentDay => "Day1";
+        public override string CurrentDay => "Day1";
 
-        private static Dictionary<string, int> m_DigitDictionary = new Dictionary<string, int>()
+        private Dictionary<string, int> m_DigitDictionary = new Dictionary<string, int>()
         {
             { "one", 1 },
             { "two", 2 },
@@ -21,7 +21,7 @@ namespace AdventOfCode2023
             { "nine", 9 },
         };
 
-        protected override string SolveTask1(List<string> input)
+        public override void SolveTask1(List<string> input)
         {
             int count = 0;
             foreach (var line in input)
@@ -32,10 +32,10 @@ namespace AdventOfCode2023
                 count += firstDigit * 10 + lastDigit;
             }
 
-            return $"Task 1: {count}";
+            Logger.OutputToFile($"Task 1: {count}", CurrentDay);
         }
 
-        protected override string SolveTask2(List<string> input)
+        public override void SolveTask2(List<string> input)
         {
             int count = 0;
             foreach (var line in input)
@@ -46,10 +46,10 @@ namespace AdventOfCode2023
                 count += firstDigit * 10 + lastDigit;
             }
 
-            return $"Task 2: {count}";
+            Logger.OutputToFile($"Task 2: {count}", CurrentDay);
         }
 
-        private static int FindFirstDigit(string line, bool reverseDictionary)
+        private int FindFirstDigit(string line, bool reverseDictionary)
         {
             int firstDigit = -1;
             var firstIndex = line.Length;

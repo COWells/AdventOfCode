@@ -46,9 +46,10 @@
     <Compile Include="CommonUtils\StringFormatter.cs" />
     <Compile Include="CommonUtils\Logger.cs" />
     <Compile Include="CommonUtils\FileReader.cs" />
+    <Compile Include="Days\AdventDayFactory.cs" />
     <Compile Include="Days\Day1\Day1.cs" />
     <Compile Include="Days\Day2\Day2.cs" />
-    <Compile Include="Days\BaseAdventDay.cs" />
+    <Compile Include="Days\AdventDay.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

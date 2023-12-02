@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CommonUtils;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,8 +11,14 @@ namespace AdventOfCode2023
     {
         static void Main(string[] args)
         {
-            BaseAdventDay currentDay = new Day1();
-            currentDay.SolveDay();
+            SolveDay(AdventDayFactory.CreateDay<Day1>());
+        }
+
+        private static void SolveDay(AdventDay adventDay)
+        {
+            List<string> input = FileReader.ReadAllLines(adventDay.CurrentDay);
+            adventDay.SolveTask1(input);
+            adventDay.SolveTask2(input);
         }
     }
 }
