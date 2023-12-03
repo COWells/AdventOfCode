@@ -15,6 +15,6 @@ namespace CommonUtils
         }
 
         private static string GetFilePath(string Day)
-            => Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName + $"/Days/{Day}";
+            => Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName + $"/Days/{Day}";
     }
 }

@@ -9,6 +9,6 @@ namespace CommonUtils
         public static List<string> ReadAllLines(string Day) => File.ReadAllLines(GetFilePath(Day)).ToList();
 
         private static string GetFilePath(string Day)
-            => Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName + $"/Days/{Day}/Input.txt";
+            => Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName + $"/Days/{Day}/Input.txt";
     }
 }
