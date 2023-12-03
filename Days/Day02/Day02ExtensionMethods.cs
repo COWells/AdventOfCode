@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace AdventOfCode2023
 {
-    internal static class Day2ExtensionMethods
+    internal static class Day02ExtensionMethods
     {
         internal static Dictionary<CubeColoursEnum, int> AddRoundToCubeDictionary(this Dictionary<CubeColoursEnum, int> maximalCubes, string round)
         {

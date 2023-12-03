@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace AdventOfCode2023
 {
-    public class Day2 : AdventDay
+    public class Day02 : AdventDay
     {
-        public override string CurrentDay => "Day2";
+        public override string CurrentDay => "Day02";
 
         public override void SolveTask1(List<string> input)
         {
