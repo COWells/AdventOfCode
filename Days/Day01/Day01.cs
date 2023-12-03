@@ -4,9 +4,9 @@ using System.Linq;
 
 namespace AdventOfCode2023
 {
-    public class Day1 : AdventDay
+    public class Day01 : AdventDay
     {
-        public override string CurrentDay => "Day1";
+        public override string CurrentDay => "Day01";
 
         private Dictionary<string, int> m_DigitDictionary = new Dictionary<string, int>()
         {

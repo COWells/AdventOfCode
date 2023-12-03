@@ -6,9 +6,9 @@ using System.Text.RegularExpressions;
 
 namespace AdventOfCode2023
 {
-    public class Day3 : AdventDay
+    public class Day03 : AdventDay
     {
-        public override string CurrentDay => "Day3";
+        public override string CurrentDay => "Day03";
 
         public override void SolveTask1(List<string> input)
         {

@@ -48,13 +48,13 @@
     <Compile Include="CommonUtils\Logger.cs" />
     <Compile Include="CommonUtils\FileReader.cs" />
     <Compile Include="Days\AdventDayFactory.cs" />
-    <Compile Include="Days\Day3\Day3.cs" />
-    <Compile Include="Days\Day1\Day1.cs" />
-    <Compile Include="Days\Day2\CubeColoursEnum.cs" />
-    <Compile Include="Days\Day2\Day2.cs" />
+    <Compile Include="Days\Day03\Day03.cs" />
+    <Compile Include="Days\Day01\Day01.cs" />
+    <Compile Include="Days\Day02\CubeColoursEnum.cs" />
+    <Compile Include="Days\Day02\Day02.cs" />
     <Compile Include="Days\AdventDay.cs" />
-    <Compile Include="Days\Day2\Day2ExtensionMethods.cs" />
-    <Compile Include="Days\Day3\Part.cs" />
+    <Compile Include="Days\Day02\Day02ExtensionMethods.cs" />
+    <Compile Include="Days\Day03\Part.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -62,12 +62,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Days\Day3\Input.txt" />
-    <Content Include="Days\Day3\Output.txt" />
-    <Content Include="Days\Day1\Output.txt" />
-    <Content Include="Days\Day1\Input.txt" />
-    <Content Include="Days\Day2\Input.txt" />
-    <Content Include="Days\Day2\Output.txt" />
+    <Content Include="Days\Day03\Input.txt" />
+    <Content Include="Days\Day03\Output.txt" />
+    <Content Include="Days\Day01\Output.txt" />
+    <Content Include="Days\Day01\Input.txt" />
+    <Content Include="Days\Day02\Input.txt" />
+    <Content Include="Days\Day02\Output.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
