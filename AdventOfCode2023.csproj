@@ -41,17 +41,20 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommonUtils\StringFormatter.cs" />
     <Compile Include="CommonUtils\Logger.cs" />
     <Compile Include="CommonUtils\FileReader.cs" />
     <Compile Include="Days\AdventDayFactory.cs" />
+    <Compile Include="Days\Day3\Day3.cs" />
     <Compile Include="Days\Day1\Day1.cs" />
     <Compile Include="Days\Day2\CubeColoursEnum.cs" />
     <Compile Include="Days\Day2\Day2.cs" />
     <Compile Include="Days\AdventDay.cs" />
     <Compile Include="Days\Day2\Day2ExtensionMethods.cs" />
+    <Compile Include="Days\Day3\Part.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -59,6 +62,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Days\Day3\Input.txt" />
+    <Content Include="Days\Day3\Output.txt" />
     <Content Include="Days\Day1\Output.txt" />
     <Content Include="Days\Day1\Input.txt" />
     <Content Include="Days\Day2\Input.txt" />
