@@ -10,24 +10,6 @@
     <FileVersion>1.0.0.0</FileVersion>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Days\Day05\Input.txt" />
-    <None Remove="Days\Day05\Output.txt" />
-    <None Remove="Days\Day04\Input.txt" />
-    <None Remove="Days\Day04\Output.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Days\Day05\Input.txt" />
-    <Content Include="Days\Day05\Output.txt" />
-    <Content Include="Days\Day04\Input.txt" />
-    <Content Include="Days\Day04\Output.txt" />
-    <Content Include="Days\Day03\Input.txt" />
-    <Content Include="Days\Day03\Output.txt" />
-    <Content Include="Days\Day01\Output.txt" />
-    <Content Include="Days\Day01\Input.txt" />
-    <Content Include="Days\Day02\Input.txt" />
-    <Content Include="Days\Day02\Output.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
   </ItemGroup>

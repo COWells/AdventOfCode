@@ -59,8 +59,6 @@ namespace AdventOfCode2023
         // step and also the columns (using https://stackoverflow.com/a/3269471).
         private bool Adjacent(PointOfInterest p1, PointOfInterest p2)
         {
-            Console.WriteLine(p1.ToString());
-
             return (Math.Abs(p2.Row - p1.Row) <= 1 &&
             p1.Column <= p2.Column + p2.Text.Length &&
             p2.Column <= p1.Column + p1.Text.Length);
