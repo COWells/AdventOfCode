@@ -10,6 +10,12 @@
     <FileVersion>1.0.0.0</FileVersion>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Days\Day04\Input.txt" />
+    <None Remove="Days\Day04\Output.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Days\Day04\Input.txt" />
+    <Content Include="Days\Day04\Output.txt" />
     <Content Include="Days\Day03\Input.txt" />
     <Content Include="Days\Day03\Output.txt" />
     <Content Include="Days\Day01\Output.txt" />
