@@ -1,5 +1,4 @@
-﻿using CommonUtils;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace AdventOfCode2023
 {
