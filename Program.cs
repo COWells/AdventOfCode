@@ -7,7 +7,7 @@ namespace AdventOfCode2023
     {
         static void Main(string[] args)
         {
-            SolveDay(AdventDayFactory.CreateDay<Day06>());
+            SolveDay(AdventDayFactory.CreateDay<Day07>());
         }
 
         private static void SolveDay(AdventDay adventDay)
