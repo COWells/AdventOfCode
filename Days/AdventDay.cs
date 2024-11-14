@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace AdventOfCode2023
+namespace AdventOfCode_Days
 {
     public abstract class AdventDay
     {
