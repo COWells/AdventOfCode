@@ -1,4 +1,4 @@
-﻿namespace AdventOfCode2023
+﻿namespace AdventOfCode_2023
 {
     public enum CubeColoursEnum
     { 

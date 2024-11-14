@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace AdventOfCode2023
+namespace AdventOfCode_2023
 {
     internal static class Day02ExtensionMethods
     {

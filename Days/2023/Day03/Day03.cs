@@ -1,14 +1,16 @@
-﻿using CommonUtils;
+﻿using AdventOfCode.CommonUtils;
+using AdventOfCode_Days;
+using CommonUtils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace AdventOfCode2023
+namespace AdventOfCode_2023
 {
     public class Day03 : AdventDay
     {
-        public override string CurrentDay => "Day03";
+        public override string CurrentDay => "2023/Day03";
 
         public override void SolveTask1(List<string> input)
         {
@@ -25,7 +27,7 @@ namespace AdventOfCode2023
         public override void SolveTask2(List<string> input)
         {
             var gears = Parse(input, new Regex(@"\*")); // Exactly 1 *
-            var nums = Parse(input, new Regex(@"\d+")); // One or more digits
+            var nums = Parse(input, CommonRegex.OneOrMoreDigits); // One or more digits
 
             var sum = 0;
             foreach (var gear in gears)

@@ -1,11 +1,12 @@
-﻿using CommonUtils;
+﻿using AdventOfCode_Days;
+using CommonUtils;
 using System.Collections.Generic;
 
-namespace AdventOfCode2023
+namespace AdventOfCode_2023
 {
     public class Day02 : AdventDay
     {
-        public override string CurrentDay => "Day02";
+        public override string CurrentDay => "2023/Day02";
 
         public override void SolveTask1(List<string> input)
         {

@@ -1,13 +1,13 @@
 ﻿using CommonUtils;
 using System.Collections.Generic;
 
-namespace AdventOfCode2023
+namespace AdventOfCode_Days
 {
-    class Program
+    class RunDay
     {
         static void Main(string[] args)
         {
-            SolveDay(AdventDayFactory.CreateDay<Day09>());
+            SolveDay(AdventDayFactory.CreateDay<AdventOfCode_2023.Day05>());
         }
 
         private static void SolveDay(AdventDay adventDay)

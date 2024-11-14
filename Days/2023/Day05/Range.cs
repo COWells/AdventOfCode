@@ -1,4 +1,6 @@
-﻿namespace AdventOfCode2023
+﻿#nullable enable
+
+namespace AdventOfCode_2023
 {
     internal record Range(long Start, long Length, Range? Parent, long Shift)
     { 

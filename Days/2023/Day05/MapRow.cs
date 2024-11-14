@@ -1,4 +1,4 @@
-﻿namespace AdventOfCode2023
+﻿namespace AdventOfCode_2023
 {
     internal record MapRow(long Source, long Destination, long Length)
     {

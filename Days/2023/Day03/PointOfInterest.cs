@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AdventOfCode2023
+namespace AdventOfCode_2023
 {
     public record PointOfInterest(string Text, int Row, int Column)
     {

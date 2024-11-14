@@ -1,12 +1,13 @@
-﻿using CommonUtils;
+﻿using AdventOfCode_Days;
+using CommonUtils;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace AdventOfCode2023
+namespace AdventOfCode_2023
 {
     public class Day01 : AdventDay
     {
-        public override string CurrentDay => "Day01";
+        public override string CurrentDay => "2023/Day01";
 
         private Dictionary<string, int> m_DigitDictionary = new Dictionary<string, int>()
         {
