@@ -1,3 +1,3 @@
-# AdventOfCode_2023
+# AdventOfCode
 
-Repository for Advent Of Code 2023 - Language: C#
+Repository for Advent Of Code - Language: C#
